@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
 
 :root {
     --primary-color: #BE185D;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cantarell', sans-serif;
     margin: 0px
 }
 
@@ -21,13 +21,12 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 
 /** links **/
 .link {
-
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -112,6 +111,7 @@ hr {
 
 .section {
     padding: 2rem;
+    text-align: center;
 }
 
 .section h1 {
@@ -152,4 +152,19 @@ hr {
 hr
 {
    border:2px solid var(--primary-color);
+}
+.container-center p
+{
+    text-align: center;
+    font-weight:bold;
+}
+.container-center a
+{
+    text-align: center;
+}
+.about
+{
+    line-height: 0;
+    padding: 0rem 0rem 1rem;
+    font-weight: lighter !important;
 }
